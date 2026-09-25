@@ -1,0 +1,72 @@
+count=0
+while (count < 9):
+   print ('The count is:',count)
+   count=count+1
+   print ("Good bye!")
+
+
+count=0
+while count < 7:
+  print (count,"is less than 7")
+  count=count+1
+else:
+  print ("Loop end")
+
+
+for i in range(1,6):
+  if i ==3:
+    break
+  print(i)  
+
+  for i in range(1,6):
+    if i ==3:
+      continue
+    print(i) 
+
+OUTPUT
+The count is: 0
+Good bye!
+The count is: 1
+Good bye!
+The count is: 2
+Good bye!
+The count is: 3
+Good bye!
+The count is: 4
+Good bye!
+The count is: 5
+Good bye!
+The count is: 6
+Good bye!
+The count is: 7
+Good bye!
+The count is: 8
+Good bye!
+0 is less than 7
+1 is less than 7
+2 is less than 7
+3 is less than 7
+4 is less than 7
+5 is less than 7
+6 is less than 7
+Loop end
+1
+1
+2
+4
+5
+2
+1
+2
+4
+5
+CONDITIONAL STATEMENT
+
+
+  OUTPUT
+  b is greater than a
+b is not greater than a
+a is greater than b
+Expression value is less than 200
+Which is equal to 100 or greater than 180
+Good bye!
