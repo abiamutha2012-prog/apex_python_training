@@ -1,0 +1,102 @@
+
+
+my_list=[1,2,3]
+
+my_list=[1,"Hello",3.4]
+
+n_list=[2.9,3000,'Hello',"welcome to python list",True]
+print(n_list)
+
+n_list=["Happy",[2,0,1,5]]
+
+
+print(n_list[0][3])
+print(n_list[1][2])
+
+my_list=["Mouse",[8,4,6],['a','b','c']]
+print(my_list)
+print(my_list[0])
+print(my_list[1][1])
+print(my_list[2][2])
+
+my_list=['p','r','o','b','e']
+print(my_list[-1])
+print(my_list[-5])
+
+odd=[1,3,5]
+odd.append(7)
+print(odd)
+odd.extend([9,11,13])
+print(odd)
+
+odd=[1,3,5]
+print(odd+[9,7,5])
+print(["re"]*3)
+
+thislist=["apple","banana","cherry"]
+print(len(thislist))
+
+thislist=["apple","banana","cherry"]
+thislist.remove("banana")
+print(thislist)
+
+thislist=["orange","mango","kiwi","pineapple","banana"]
+thislist.sort()
+print(thislist)
+
+thislist=[100,50,65,82,23]
+thislist.sort()
+print(thislist)
+
+thislist=["orange","mango","kiwi","banana"]
+thislist.sort(reverse=True)
+print(thislist)
+thislist=[100,50,65,82,23]
+thislist.sort(reverse=True)
+print(thislist)
+
+furits=['apple','banana','cherry']
+furits.insert(1,"orange")
+print(furits)
+
+thislist=["apple","banana","cherry"]
+thislist.pop(1)
+print(thislist)
+
+thislist=["apple","banana"," cherry"]
+thislist.pop()
+print(thislist)
+
+thislist=["apple","banana","cherry"]
+del thislist[0]
+print(thislist)
+
+thislist=["apple","banana","cherry"]
+thislist.clear()
+print(thislist)
+
+  OUTPUT
+  .9, 3000, 'Hello', 'welcome to python list', True]
+p
+1
+['Mouse', [8, 4, 6], ['a', 'b', 'c']]
+Mouse
+4
+c
+e
+p
+[1, 3, 5, 7]
+[1, 3, 5, 7, 9, 11, 13]
+[1, 3, 5, 9, 7, 5]
+['re', 're', 're']
+3
+['apple', 'cherry']
+['banana', 'kiwi', 'mango', 'orange', 'pineapple']
+[23, 50, 65, 82, 100]
+['orange', 'mango', 'kiwi', 'banana']
+[100, 82, 65, 50, 23]
+['apple', 'orange', 'banana', 'cherry']
+['apple', 'cherry']
+['apple', 'banana']
+['banana', 'cherry']
+[]
